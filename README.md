@@ -15,3 +15,14 @@
 - Splunk <br>
 - PCAP File <br>
 - Amazon WorkSpaces as Virtual Machine 
+
+<h2> 1. Assess the situation by analyzing the PCAP</h2> 
+
+
+
+<h2> 2. Search the SIEM to confirm your initial findings</h2>
+
+
+
+
+<h2> 3. SBAR Report</h2>
