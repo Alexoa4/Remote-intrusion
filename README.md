@@ -18,7 +18,7 @@ roo<h1>Cyber Defense Project 1</h1>
 
 <h2> 1. Assess the situation by analyzing the PCAP</h2> 
 I Loaded the remote_intrusion.pcap into Wireshark to analyze the situation, <br>
-<img src="Capture1.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/6uBivf5" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 and started by articulating the initial hypothesis to be answered by the investigation. <br>
 I documented all pieces of evidence to support the initial hypothesis. <br>
 At this time I applied different filters in Wireshark to eliminate all the packets I deemed irrelevant. <br>
