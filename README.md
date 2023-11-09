@@ -18,23 +18,31 @@ roo<h1>Cyber Defense Project 1</h1>
 
 <h2> 1. Assess the situation by analyzing the PCAP</h2> 
 I Loaded the remote_intrusion.pcap into Wireshark to analyze the situation, <br>
+and started articulating the initial hypothesis to be answered by the investigation. <br>
 <img src="https://i.imgur.com/YfV85Ux.png" height="80%" width="80%" alt="Loading PCAP"/>
-and started by articulating the initial hypothesis to be answered by the investigation. <br>
 I documented all pieces of evidence to support the initial hypothesis. <br>
 At this time I applied different filters in Wireshark to eliminate all the packets I deemed irrelevant. <br>
+<img src="https://i.imgur.com/tP0zs1x.png" height="80%" width="80%" alt="Filtring for Evidence"/>
 Now I eliminated all the packets that signify a failed login attempt since I was interested in a successful login attempt. <br>
 Once I had removed all the handshake packets and failed login responses, I was down to a very small number of packets that made manual inspection of TCP streams a viable proposition. <br>
-Finally, I identified all indicators of compromise from the Wireshark analysis which would serve as  pivots for Splunk analysis.
+Finally, I identified all indicators of compromise from the Wireshark analysis including source and destination IP address and credentials the attacker used as well as a timeline of events that would serve as  pivots for Splunk analysis. <br>
+<img src="https://i.imgur.com/x9b1rk4.png" height="80%" width="80%" alt=""/>
 
 <h2> 2. Search the SIEM to confirm your initial findings</h2>
  I Configured Splunk for optimal search results as follows: <br>
 - 1. Confirm mode is set to Verbose with no event sampling <br>
 - 2. Set the timezone to GMT <br>
+<img src="https://i.imgur.com/NvyYGZo.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/zzEnoaG.png" height="80%" width="80%" alt=""/>
 
  I log in with Splunk credentials. <br>
  I started Splunk search by specifying (1) a time interval, and (2) an SPL search command (the string in the search box) to retrieve specific logs.<br>
-For example: when interested in firewall logs, I specify index="firewall_asa" and when interested in web traffic logs, I used index="web_apache" etc. 
+For example: when interested in firewall logs, I used index="firewall_asa" SPL and when interested in web traffic logs, I used index="web_apache" SPL, etc. <br>
+<img src="https://i.imgur.com/5EfLpyw.png" height="80%" width="80%" alt=""/> <br>
+I corroborated the evidence from wireshark with the evidence from the SIEM and concluded that there was a Brute-force attack on the AT-USA server on 12/06/2017 between 8:34:24 GMT - 18: 35: 33 GMT.<br> 
+<img src="https://i.imgur.com/uAzBkDM.png" height="80%" width="80%" alt=""/> 
 
+NOTE: The details of the analysis are Reported in the SBAR(Situation, Background, Assessment, and Recommendation) section of this page <b>
 
 <h2> 3. SBAR Report</h2>
 <p></p>From: Greg Clifford
@@ -45,7 +53,7 @@ Status: Feedback pending
  
 
 Your submission
-IMPORTANT: For ANY question you are not able to determine the answer to, you must do the following: (1) in your answer to that question, explicitly state that there is insufficient information available to determine the answer, & (2) include an appropriate RECOMMENDATION requesting access to whatever additional evidence sources would allow you to actually answer that question.
+IMPORTANT: For ANY question you are not able to determine the answer to, you must do the following: (1) in your answer to that question, explicitly state that there is insufficient information available to determine the answer, & (2) include an appropriate RECOMMENDATION requesting access to whatever additional evidence sources would allow you actually to answer that question.
 
  
 
@@ -137,7 +145,7 @@ A1 ANY CORRECTIONS TO MAKE TO INFO REPORTED IN S OR B? • Did you discover that
 
  
 
-The notions that the incident was a remote intrusion activity came up not torue after the investigation. The investigation revealed that the attack originated internally and not externally.
+The notions that the incident was a remote intrusion activity came up not true after the investigation. The investigation revealed that the attack originated internally and not externally.
 
 A2a WHAT HAPPENED • How did this take place? (What tool(s) or technique(s) caused the incident to occur?)
 
