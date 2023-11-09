@@ -32,6 +32,8 @@ Finally, I identified all indicators of compromise from the Wireshark analysis i
  I Configured Splunk for optimal search results as follows: <br>
 - 1. Confirm mode is set to Verbose with no event sampling <br>
 - 2. Set the timezone to GMT <br>
+<p align="center">
+Launch the utility: <br/>
 <img src="https://i.imgur.com/NvyYGZo.png" height="80%" width="80%" alt=""/>
 <img src="https://i.imgur.com/zzEnoaG.png" height="80%" width="80%" alt=""/>
 
