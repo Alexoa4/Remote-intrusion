@@ -56,4 +56,4 @@ NOTE: The details of the analysis are Reported in the SBAR(Situation, Background
 <img src="https://i.imgur.com/X9Nm1ea.png" height="80%" width="80%" alt=""/> <br>
 <img src="https://i.imgur.com/PA4kUUv.png" height="80%" width="80%" alt=""/>
 
-<h1>Note: The completed SBAR Report of this project is Attached as a PDF Document in the Files Folder</h1>
+<h2>Note: The completed SBAR Report of this Project is Attached as a PDF Document in the Files Folder</h2>
