@@ -57,10 +57,14 @@ Launch the utility: <br/>
 
 
 
- I log in with Splunk credentials. <br>
+ <p>I log in with Splunk credentials. <br>
  I started Splunk search by specifying (1) a time interval, and (2) an SPL search command (the string in the search box) to retrieve specific logs.<br>
-For example: when interested in firewall logs, I used index="firewall_asa" SPL and when interested in web traffic logs, I used index="web_apache" SPL, etc. <br>
+For example: when interested in firewall logs, I used index="firewall_asa" SPL and when interested in web traffic logs, I used index="web_apache" SPL, etc.</p> <br>
+
+
 <img src="https://i.imgur.com/5EfLpyw.png" height="80%" width="80%" alt=""/> <br>
+
+
 I corroborated the evidence from wireshark with the evidence from the SIEM and concluded that there was a Brute-force attack on the AT-USA server on 12/06/2017 between 8:34:24 GMT - 18: 35: 33 GMT.<br> 
 <img src="https://i.imgur.com/uAzBkDM.png" height="80%" width="80%" alt=""/> 
 
