@@ -26,6 +26,8 @@ and started articulating the initial hypothesis to be answered by the investigat
 I documented all pieces of evidence to support the initial hypothesis. <br>
 At this time I applied different filters in Wireshark to eliminate all the packets I deemed irrelevant. <br>
 
+<h2>Experiencing the Beauty and the Simplicity of Filter pane in Wireshark</h2>
+
 
 ![Filter](https://github.com/Alexoa4/Remote-intrusion/assets/105945708/ccb473ad-624b-4e28-a953-3004869abdac) 
 
