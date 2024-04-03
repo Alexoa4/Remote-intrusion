@@ -27,7 +27,8 @@ I documented all pieces of evidence to support the initial hypothesis. <br>
 At this time I applied different filters in Wireshark to eliminate all the packets I deemed irrelevant. <br>
 
 
-<img src="https://i.imgur.com/tP0zs1x.png" height="80%" width="80%" alt="Filtring for Evidence"/>
+![Filter](https://github.com/Alexoa4/Remote-intrusion/assets/105945708/ccb473ad-624b-4e28-a953-3004869abdac) 
+
 
 
 Now I eliminated all the packets that signify a failed login attempt since I was interested in a successful login attempt. <br>
