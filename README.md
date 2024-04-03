@@ -67,13 +67,15 @@ For example: when interested in firewall logs, I used index="firewall_asa" SPL a
 
 <h2>Corroboration of Evidence</h2>
 
-
 <p>I corroborated the evidence from wireshark with the evidence from the SIEM and concluded that there was a Brute-force attack on the AT-USA server on 12/06/2017 between 8:34:24 GMT - 18: 35: 33 GMT.</p> <br> 
 
 
+![SIEM-Evidence](https://github.com/Alexoa4/Remote-intrusion/assets/105945708/1fb7a982-badb-4b31-b3a1-400889b29564)
 
 
-NOTE: The details of the analysis are Reported in the SBAR(Situation, Background, Assessment, and Recommendation) section of this page <b>
+
+
+<h1>NOTE: The details of the analysis are Reported in the SBAR(Situation, Background, Assessment, and Recommendation) section of this page</h1> <b>
 
 <h2> 3. SBAR Report</h2>
 <img src="https://i.imgur.com/WMjiI0k.png" height="80%" width="80%" alt=""/> <br>
