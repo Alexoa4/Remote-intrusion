@@ -49,8 +49,13 @@ Finally, I identified all indicators of compromise from the Wireshark analysis i
 - 2. Set the timezone to GMT <br>
 <p align="center">
 Launch the utility: <br/>
-<img src="https://i.imgur.com/NvyYGZo.png" height="80%" width="80%" alt=""/>
-<img src="https://i.imgur.com/zzEnoaG.png" height="80%" width="80%" alt=""/>
+
+
+![SplunkConfig](https://github.com/Alexoa4/Remote-intrusion/assets/105945708/6656523a-f266-4eda-86f2-95cafc00789c)
+
+
+
+
 
  I log in with Splunk credentials. <br>
  I started Splunk search by specifying (1) a time interval, and (2) an SPL search command (the string in the search box) to retrieve specific logs.<br>
