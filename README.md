@@ -65,8 +65,13 @@ For example: when interested in firewall logs, I used index="firewall_asa" SPL a
 ![Firewall](https://github.com/Alexoa4/Remote-intrusion/assets/105945708/7cc14072-c83c-436a-921c-51d2274e075b)
 
 
-I corroborated the evidence from wireshark with the evidence from the SIEM and concluded that there was a Brute-force attack on the AT-USA server on 12/06/2017 between 8:34:24 GMT - 18: 35: 33 GMT.<br> 
-<img src="https://i.imgur.com/uAzBkDM.png" height="80%" width="80%" alt=""/> 
+<h2>Corroboration of Evidence</h2>
+
+
+<p>I corroborated the evidence from wireshark with the evidence from the SIEM and concluded that there was a Brute-force attack on the AT-USA server on 12/06/2017 between 8:34:24 GMT - 18: 35: 33 GMT.</p> <br> 
+
+
+
 
 NOTE: The details of the analysis are Reported in the SBAR(Situation, Background, Assessment, and Recommendation) section of this page <b>
 
