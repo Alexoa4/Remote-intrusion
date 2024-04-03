@@ -22,9 +22,14 @@ and started articulating the initial hypothesis to be answered by the investigat
 
 ![PCAPloaded](https://github.com/Alexoa4/Remote-intrusion/assets/105945708/4c56a31c-f0b8-4a33-a36a-bb37e75ec1be)
 
+
 I documented all pieces of evidence to support the initial hypothesis. <br>
 At this time I applied different filters in Wireshark to eliminate all the packets I deemed irrelevant. <br>
+
+
 <img src="https://i.imgur.com/tP0zs1x.png" height="80%" width="80%" alt="Filtring for Evidence"/>
+
+
 Now I eliminated all the packets that signify a failed login attempt since I was interested in a successful login attempt. <br>
 Once I had removed all the handshake packets and failed login responses, I was down to a very small number of packets that made manual inspection of TCP streams a viable proposition. <br>
 Finally, I identified all indicators of compromise from the Wireshark analysis including source and destination IP address and credentials the attacker used as well as a timeline of events that would serve as  pivots for Splunk analysis. <br>
