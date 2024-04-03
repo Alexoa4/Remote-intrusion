@@ -34,7 +34,10 @@ At this time I applied different filters in Wireshark to eliminate all the packe
 Now I eliminated all the packets that signify a failed login attempt since I was interested in a successful login attempt. <br>
 Once I had removed all the handshake packets and failed login responses, I was down to a very small number of packets that made manual inspection of TCP streams a viable proposition. <br>
 Finally, I identified all indicators of compromise from the Wireshark analysis including source and destination IP address and credentials the attacker used as well as a timeline of events that would serve as  pivots for Splunk analysis. <br>
-<img src="https://i.imgur.com/x9b1rk4.png" height="80%" width="80%" alt=""/>
+
+
+
+
 
 <h2> 2. Search the SIEM to confirm your initial findings</h2>
  I Configured Splunk for optimal search results as follows: <br>
