@@ -75,16 +75,9 @@ For example: when interested in firewall logs, I used index="firewall_asa" SPL a
 
 
 
-<h1>NOTE: The details of the analysis are Reported in the SBAR(Situation, Background, Assessment, and Recommendation) section of this page</h1> <b>
+<h2>NOTE: The detail analysis are Reported in the SBAR(Situation, Background, Assessment, and Recommendation) section of this page</h1> <b>
 
-<h2> 3. SBAR Report</h2>
-<img src="https://i.imgur.com/WMjiI0k.png" height="80%" width="80%" alt=""/> <br>
-<img src="https://i.imgur.com/0wXcdRo.png" height="80%" width="80%" alt=""/> <br>
+<h2> 3. SBAR Report images</h2>
 
-<img src="https://i.imgur.com/wnl5yyb.png" height="80%" width="80%" alt=""/> <br>
-<img src="https://i.imgur.com/ioYpy9x.png" height="80%" width="80%" alt=""/> <br>
-<img src="https://i.imgur.com/DXcv6B6.png" height="80%" width="80%" alt=""/> <br>
-<img src="https://i.imgur.com/X9Nm1ea.png" height="80%" width="80%" alt=""/> <br>
-<img src="https://i.imgur.com/PA4kUUv.png" height="80%" width="80%" alt=""/>
 
 <h2>Note: The complete SBAR Report of this Project is Attached as a PDF Document in the Files Folder</h2>
