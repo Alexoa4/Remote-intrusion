@@ -35,7 +35,9 @@ Now I eliminated all the packets that signify a failed login attempt since I was
 Once I had removed all the handshake packets and failed login responses, I was down to a very small number of packets that made manual inspection of TCP streams a viable proposition. <br>
 Finally, I identified all indicators of compromise from the Wireshark analysis including source and destination IP address and credentials the attacker used as well as a timeline of events that would serve as  pivots for Splunk analysis. <br>
 
+<h2>TCP Stream Evidence</h2>
 
+![TCP Stream](https://github.com/Alexoa4/Remote-intrusion/assets/105945708/4808d2a4-621e-488d-939d-6313637a610c)
 
 
 
