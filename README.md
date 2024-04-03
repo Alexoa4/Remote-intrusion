@@ -62,7 +62,7 @@ Launch the utility: <br/>
 For example: when interested in firewall logs, I used index="firewall_asa" SPL and when interested in web traffic logs, I used index="web_apache" SPL, etc.</p> <br>
 
 
-
+![Firewall](https://github.com/Alexoa4/Remote-intrusion/assets/105945708/7cc14072-c83c-436a-921c-51d2274e075b)bb37e75ec1be)
 
 
 I corroborated the evidence from wireshark with the evidence from the SIEM and concluded that there was a Brute-force attack on the AT-USA server on 12/06/2017 between 8:34:24 GMT - 18: 35: 33 GMT.<br> 
