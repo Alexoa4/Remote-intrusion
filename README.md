@@ -81,6 +81,11 @@ For example: when interested in firewall logs, I used index="firewall_asa" SPL a
 
 ![situation](https://github.com/Alexoa4/Remote-intrusion/assets/105945708/3ae5cc4c-7050-4d5c-8ad8-b148708c2b65)
 
+![Background](https://github.com/Alexoa4/Remote-intrusion/assets/105945708/e29b224a-d8a0-46a2-907d-5fe3c290b2ef)
+
+
+![Capture](https://github.com/Alexoa4/Remote-intrusion/assets/105945708/78f18387-5c70-4dfe-bfed-966a7a0a6ff4)
+
 
 ![Assessment](https://github.com/Alexoa4/Remote-intrusion/assets/105945708/6daf75a1-12f3-4067-a816-92e93296465c)
 
@@ -92,12 +97,6 @@ For example: when interested in firewall logs, I used index="firewall_asa" SPL a
 
 
 ![Assessment4](https://github.com/Alexoa4/Remote-intrusion/assets/105945708/8880a315-1a04-4021-9cd3-d3eb3644d4f7)
-
-
-![Background](https://github.com/Alexoa4/Remote-intrusion/assets/105945708/e29b224a-d8a0-46a2-907d-5fe3c290b2ef)
-
-
-![Capture](https://github.com/Alexoa4/Remote-intrusion/assets/105945708/78f18387-5c70-4dfe-bfed-966a7a0a6ff4)
 
 
 ![Prevention](https://github.com/Alexoa4/Remote-intrusion/assets/105945708/bdf975e2-6d83-4edd-abd3-13040f52b1ae)
